@@ -16,7 +16,7 @@ Configuration for TypeScript to use with [@jenssimon/eslint-config-base](https:/
 
 ## License
 
-MIT © 2019 [Jens Simon](https://github.com/jenssimon)
+MIT © 2020 [Jens Simon](https://github.com/jenssimon)
 
 [npm-url]: https://www.npmjs.com/package/@jenssimon/eslint-config-typescript
 [npm-image]: https://badgen.net/npm/v/@jenssimon/eslint-config-typescript
