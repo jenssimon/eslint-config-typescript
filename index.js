@@ -7,6 +7,11 @@ module.exports = {
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts', '.tsx'],
     },
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
   },
   extends: [
     'plugin:@typescript-eslint/recommended',
@@ -17,6 +22,16 @@ module.exports = {
     'no-shadow': 'off',
     'no-use-before-define': 'off',
     indent: 'off',
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+      },
+    ],
     '@typescript-eslint/array-type': 'error',
     '@typescript-eslint/brace-style': ['error', '1tbs', { allowSingleLine: true }],
     '@typescript-eslint/func-call-spacing': ['error'],
