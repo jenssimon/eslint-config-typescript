@@ -2,6 +2,7 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: [
     '@typescript-eslint',
+    'deprecation',
   ],
   settings: {
     'import/parsers': {
@@ -18,6 +19,7 @@ module.exports = {
   ],
   rules: {
     'brace-style': 'off',
+    'deprecation/deprecation': 'warn',
     'func-call-spacing': 'off',
     'no-shadow': 'off',
     'no-use-before-define': 'off',
