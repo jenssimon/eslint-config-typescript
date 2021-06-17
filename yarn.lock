@@ -247,10 +247,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@jenssimon/eslint-config-base@^4.0.0-alpha.0":
-  version "4.0.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@jenssimon/eslint-config-base/-/eslint-config-base-4.0.0-alpha.0.tgz#e15de4df822cf3aa4d8a0b0df8164c3bc1317d0f"
-  integrity sha512-NnhMbW0b/I2+EHhR/bxOEybo/uushL4ixZNhD9My9JmeQzwfhVJycCb2ClMHOqj1lmFhBpW5Lt9ZIel6/ICt+Q==
+"@jenssimon/eslint-config-base@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@jenssimon/eslint-config-base/-/eslint-config-base-4.0.0.tgz#52ec37c1c08c911e86dc90f5ca58c85e543e7fef"
+  integrity sha512-cHeIOWSJfkOYgALOuxbBZw4R5MitDgbujBPGjOkK+3VBMPr4PQY/tMuWoX4uV00GxhftqHDfLXT32/+UV5cptQ==
   dependencies:
     "@babel/core" "^7.14.6"
     "@babel/eslint-parser" "^7.14.5"
