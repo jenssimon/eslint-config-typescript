@@ -1,6 +1,6 @@
 {
   "name": "@jenssimon/eslint-config-typescript",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "ESLint configuration for usage with TypeScript",
   "main": "index.js",
   "author": "Jens Simon <https://github.com/jenssimon>",
