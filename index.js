@@ -2,7 +2,7 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: [
     '@typescript-eslint',
-    'deprecation',
+    // 'deprecation',
   ],
   settings: {
     'import/parsers': {
@@ -19,7 +19,8 @@ module.exports = {
   ],
   rules: {
     'brace-style': 'off',
-    'deprecation/deprecation': 'warn',
+    camelcase: 'off',
+    // 'deprecation/deprecation': 'warn',
     'func-call-spacing': 'off',
     'no-shadow': 'off',
     'no-use-before-define': 'off',
@@ -38,6 +39,34 @@ module.exports = {
     '@typescript-eslint/brace-style': ['error', '1tbs', { allowSingleLine: true }],
     '@typescript-eslint/func-call-spacing': ['error'],
     '@typescript-eslint/indent': ['error', 2],
+    '@typescript-eslint/naming-convention': [
+      'error',
+      {
+        selector: 'default',
+        format: ['camelCase'],
+      },
+
+      {
+        selector: 'variable',
+        format: ['camelCase', 'UPPER_CASE'],
+      },
+      {
+        selector: 'parameter',
+        format: ['camelCase'],
+        leadingUnderscore: 'allow',
+      },
+
+      {
+        selector: 'memberLike',
+        modifiers: ['private'],
+        format: ['camelCase'],
+        leadingUnderscore: 'require',
+      },
+      {
+        selector: 'typeLike',
+        format: ['PascalCase'],
+      },
+    ],
     '@typescript-eslint/no-empty-function': 'off',
     '@typescript-eslint/no-shadow': ['error'],
     '@typescript-eslint/no-use-before-define': ['error', { functions: false }],
