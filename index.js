@@ -89,5 +89,41 @@ module.exports = {
         '@typescript-eslint/indent': 'off',
       },
     },
+    {
+      files: [
+        '**/*.jsx',
+        '**/*.tsx',
+      ],
+      rules: {
+        '@typescript-eslint/naming-convention': [
+          'error',
+          {
+            selector: 'default',
+            format: ['camelCase'],
+          },
+
+          {
+            selector: 'variable',
+            format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
+          },
+          {
+            selector: 'parameter',
+            format: ['camelCase'],
+            leadingUnderscore: 'allow',
+          },
+
+          {
+            selector: 'memberLike',
+            modifiers: ['private'],
+            format: ['camelCase'],
+            leadingUnderscore: 'allow',
+          },
+          {
+            selector: 'typeLike',
+            format: ['PascalCase'],
+          },
+        ],
+      },
+    },
   ],
 };
