@@ -3,6 +3,7 @@ module.exports = {
   plugins: [
     '@typescript-eslint',
     // 'deprecation',
+    '@delagen/deprecation',
   ],
   settings: {
     'import/parsers': {
@@ -21,6 +22,7 @@ module.exports = {
     'brace-style': 'off',
     camelcase: 'off',
     // 'deprecation/deprecation': 'warn',
+    '@delagen/deprecation/deprecation': 'warn',
     'func-call-spacing': 'off',
     'no-shadow': 'off',
     'no-use-before-define': 'off',
