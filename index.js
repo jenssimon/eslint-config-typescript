@@ -39,6 +39,13 @@ module.exports = {
     ],
     '@typescript-eslint/array-type': 'error',
     '@typescript-eslint/brace-style': ['error', '1tbs', { allowSingleLine: true }],
+    '@typescript-eslint/consistent-type-imports': [
+      'error',
+      {
+        prefer: 'type-imports',
+        disallowTypeAnnotations: true,
+      },
+    ],
     '@typescript-eslint/func-call-spacing': ['error'],
     '@typescript-eslint/indent': ['error', 2],
     '@typescript-eslint/naming-convention': [
