@@ -2,8 +2,7 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: [
     '@typescript-eslint',
-    // 'deprecation',
-    '@delagen/deprecation',
+    'deprecation',
   ],
   settings: {
     'import/parsers': {
@@ -21,8 +20,7 @@ module.exports = {
   rules: {
     'brace-style': 'off',
     camelcase: 'off',
-    // 'deprecation/deprecation': 'warn',
-    '@delagen/deprecation/deprecation': 'warn',
+    'deprecation/deprecation': 'warn',
     'func-call-spacing': 'off',
     'no-shadow': 'off',
     'no-use-before-define': 'off',
