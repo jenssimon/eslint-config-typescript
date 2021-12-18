@@ -23,8 +23,8 @@
     "eslint-plugin-deprecation": "^1.3.2"
   },
   "devDependencies": {
-    "@jenssimon/eslint-config-base": "^5.0.2",
-    "eslint": "^8.4.1",
+    "@jenssimon/eslint-config-base": "^5.1.0",
+    "eslint": "^8.5.0",
     "typescript": "^4.5.4"
   },
   "peerDependencies": {
