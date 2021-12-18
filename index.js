@@ -45,7 +45,17 @@ module.exports = {
       },
     ],
     '@typescript-eslint/func-call-spacing': ['error'],
-    '@typescript-eslint/indent': ['error', 2],
+    '@typescript-eslint/indent': [
+      'error',
+      2,
+      {
+        ignoredNodes: [
+          'FunctionExpression > .params[decorators.length > 0]',
+          'FunctionExpression > .params > :matches(Decorator, :not(:first-child))',
+          'ClassBody.body > PropertyDefinition[decorators.length > 0] > .key',
+        ],
+      },
+    ],
     '@typescript-eslint/naming-convention': [
       'error',
       {
