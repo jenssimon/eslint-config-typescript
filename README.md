@@ -1,4 +1,4 @@
-[![NPM version][npm-image]][npm-url] [![Downloads][npm-downloads-image]][npm-url] [![star this repo][gh-stars-image]][gh-url] [![fork this repo][gh-forks-image]][gh-url] [![Build Status][travis-image]][travis-url] ![Code Style][codestyle-image]
+[![NPM version][npm-image]][npm-url] [![Downloads][npm-downloads-image]][npm-url] [![star this repo][gh-stars-image]][gh-url] [![fork this repo][gh-forks-image]][gh-url] [![Build Status][gh-status-image]][gh-url] ![Code Style][codestyle-image]
 
 # eslint-config-typescript
 
@@ -25,8 +25,4 @@ MIT © 2021 [Jens Simon](https://github.com/jenssimon)
 [gh-url]: https://github.com/jenssimon/eslint-config-typescript
 [gh-stars-image]: https://badgen.net/github/stars/jenssimon/eslint-config-typescript
 [gh-forks-image]: https://badgen.net/github/forks/jenssimon/eslint-config-typescript
-
-[travis-url]: https://travis-ci.com/jenssimon/eslint-config-typescript
-[travis-image]: https://travis-ci.com/jenssimon/eslint-config-typescript.svg?branch=master
-
-[codestyle-image]: https://badgen.net/badge/code%20style/airbnb/f2a
+[gh-status-image]: https://badgen.net/github/status/jenssimon/eslint-config-typescript
