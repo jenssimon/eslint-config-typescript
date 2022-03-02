@@ -56,6 +56,7 @@ module.exports = {
         ],
       },
     ],
+    '@typescript-eslint/member-delimiter-style': 'error',
     '@typescript-eslint/naming-convention': [
       'error',
       {
