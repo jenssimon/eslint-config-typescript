@@ -16,8 +16,8 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint --fix ./",
-    "ci": "run-s \"ci:*\"",
-    "ci:lint": "eslint ./"
+    "ci-test": "run-s \"ci-test:*\"",
+    "ci-test:lint": "eslint ./"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.23.0",
