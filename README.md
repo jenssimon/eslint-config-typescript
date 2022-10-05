@@ -1,4 +1,4 @@
-[![NPM version][npm-image]][npm-url] [![Downloads][npm-downloads-image]][npm-url] [![star this repo][gh-stars-image]][gh-url] [![fork this repo][gh-forks-image]][gh-url] [![Build Status][gh-status-image]][gh-url]
+[![NPM version][npm-image]][npm-url] [![Downloads][npm-downloads-image]][npm-url] [![star this repo][gh-stars-image]][gh-url] [![fork this repo][gh-forks-image]][gh-url] [![Build Status][gh-checks-image]][gh-url]
 
 # eslint-config-typescript
 
@@ -25,4 +25,4 @@ MIT © 2022 [Jens Simon](https://github.com/jenssimon)
 [gh-url]: https://github.com/jenssimon/eslint-config-typescript
 [gh-stars-image]: https://badgen.net/github/stars/jenssimon/eslint-config-typescript
 [gh-forks-image]: https://badgen.net/github/forks/jenssimon/eslint-config-typescript
-[gh-status-image]: https://badgen.net/github/status/jenssimon/eslint-config-typescript
+[gh-checks-image]: https://badgen.net/github/checks/jenssimon/eslint-config-typescript
