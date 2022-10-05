@@ -7,13 +7,6 @@
   "labels": ["dependencies"],
   "packageRules": [
     {
-      "groupName": "typescript-eslint",
-      "matchPackageNames": [
-        "@typescript-eslint/eslint-plugin",
-        "@typescript-eslint/parser"
-      ]
-    },
-    {
       "groupName": "non-breaking",
       "updateTypes": [
         "minor",
@@ -24,7 +17,17 @@
       "automerge": true,
       "automergeType": "branch",
       "excludePackageNames": [
-        "eslint-plugin-deprecation"
+        "eslint-plugin-deprecation",
+        "@typescript-eslint/eslint-plugin",
+        "@typescript-eslint/parser"
+      ]
+    },
+    {
+      "groupName": "typescript-eslint",
+      "automerge": false,
+      "matchPackageNames": [
+        "@typescript-eslint/eslint-plugin",
+        "@typescript-eslint/parser"
       ]
     }
   ]
