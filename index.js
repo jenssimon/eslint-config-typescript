@@ -56,7 +56,17 @@ module.exports = {
         ],
       },
     ],
-    '@typescript-eslint/member-delimiter-style': 'error',
+    '@typescript-eslint/member-delimiter-style': ['error', {
+      multiline: {
+        delimiter: 'none',
+        requireLast: false,
+      },
+      singleline: {
+        delimiter: 'comma',
+        requireLast: false,
+      },
+      multilineDetection: 'brackets',
+    }],
     '@typescript-eslint/naming-convention': [
       'error',
       {
