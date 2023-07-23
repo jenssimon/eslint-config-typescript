@@ -44,6 +44,7 @@ module.exports = {
         disallowTypeAnnotations: true,
       },
     ],
+    '@typescript-eslint/explicit-member-accessibility': 'error',
     '@typescript-eslint/func-call-spacing': ['error'],
     '@typescript-eslint/indent': [
       'error',
