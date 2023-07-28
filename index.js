@@ -16,11 +16,11 @@ module.exports = {
   },
   extends: [
     'plugin:@typescript-eslint/recommended',
+    'plugin:deprecation/recommended',
   ],
   rules: {
     'brace-style': 'off',
     camelcase: 'off',
-    'deprecation/deprecation': 'warn',
     'func-call-spacing': 'off',
     'no-shadow': 'off',
     'no-use-before-define': 'off',
