@@ -1,5 +1,4 @@
 name: CI
-
 on:
   push:
     branches: [ '**' ]
@@ -24,10 +23,12 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'yarn'
 
-    - name: Test
-      run: |
-        yarn
-        yarn ci-test
+    - name: Dependencies
+      run: yarn
+
+    - name: Lint
+      run: yarn lint
+
   release:
     needs: [build]
     runs-on: ubuntu-latest
