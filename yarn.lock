@@ -1115,16 +1115,16 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:^14.0.0":
-  version: 14.18.58
-  resolution: "@types/node@npm:14.18.58"
-  checksum: 45767bb137acdd1d1486bcce279d149ab1c44089401f124e8b7044f4cd7511aa841ae8fac030e81b988b45df21cfb4eca44281c6d7f75c87f803748a30cb9043
+  version: 14.18.59
+  resolution: "@types/node@npm:14.18.59"
+  checksum: 6a2a5a5c07b9150bad47b821deb723ab72d33beae8b7b75a10787550236e6428d547806ba3103c86918b849b790bfaef0b165650213d807792effcfb7181be10
   languageName: node
   linkType: hard
 
 "@types/node@npm:^18.17.3":
-  version: 18.17.14
-  resolution: "@types/node@npm:18.17.14"
-  checksum: f96ce1e588426a26cf82440193084f8bbab47bfb3c2e668cf174095f99ce808a20654b2137448c7e88cfd7b6c2b8521ffb6f714f521b3502ac595a0df0bff679
+  version: 18.17.15
+  resolution: "@types/node@npm:18.17.15"
+  checksum: eed11d4398ccdb999a4c65658ee75de621a4ad57aece48ed2fb8803b1e2711fadf58d8aefbdb0a447d69cf3cba602ca32fe0fc92077575950a796e1dc13baa0f
   languageName: node
   linkType: hard
 
