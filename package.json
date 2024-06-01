@@ -28,7 +28,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "@typescript-eslint/parser": "^7.0.0",
-    "eslint-plugin-deprecation": "^2.0.0"
+    "eslint-plugin-deprecation": "^3.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.0.0",
