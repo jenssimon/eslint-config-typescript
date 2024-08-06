@@ -2,6 +2,7 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: [
     '@typescript-eslint',
+    '@stylistic/ts',
     'deprecation',
   ],
   settings: {
@@ -36,7 +37,7 @@ module.exports = {
       },
     ],
     '@typescript-eslint/array-type': 'error',
-    '@typescript-eslint/brace-style': ['error', '1tbs', { allowSingleLine: true }],
+    '@stylistic/ts/brace-style': ['error', '1tbs', { allowSingleLine: true }],
     '@typescript-eslint/consistent-type-imports': [
       'error',
       {
@@ -45,8 +46,8 @@ module.exports = {
       },
     ],
     '@typescript-eslint/explicit-member-accessibility': 'error',
-    '@typescript-eslint/func-call-spacing': ['error'],
-    '@typescript-eslint/indent': [
+    '@stylistic/ts/func-call-spacing': ['error'],
+    '@stylistic/ts/indent': [
       'error',
       2,
       {
@@ -57,7 +58,7 @@ module.exports = {
         ],
       },
     ],
-    '@typescript-eslint/member-delimiter-style': ['error', {
+    '@stylistic/ts/member-delimiter-style': ['error', {
       multiline: {
         delimiter: 'none',
         requireLast: false,
@@ -104,7 +105,7 @@ module.exports = {
     '@typescript-eslint/prefer-optional-chain': 'error',
     '@typescript-eslint/prefer-string-starts-ends-with': 'error',
     '@typescript-eslint/prefer-reduce-type-parameter': 'error',
-    '@typescript-eslint/type-annotation-spacing': 'error',
+    '@stylistic/ts/type-annotation-spacing': 'error',
   },
   overrides: [
     {
@@ -115,7 +116,7 @@ module.exports = {
       rules: {
         '@typescript-eslint/explicit-function-return-type': 'off',
         '@typescript-eslint/explicit-module-boundary-types': 'off',
-        '@typescript-eslint/indent': 'off',
+        '@stylistic/ts/indent': 'off',
       },
     },
     {
