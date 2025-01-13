@@ -2275,15 +2275,15 @@ __metadata:
   linkType: hard
 
 "@stylistic/eslint-plugin-ts@npm:^2.6.1":
-  version: 2.12.1
-  resolution: "@stylistic/eslint-plugin-ts@npm:2.12.1"
+  version: 2.13.0
+  resolution: "@stylistic/eslint-plugin-ts@npm:2.13.0"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.13.0"
     eslint-visitor-keys: "npm:^4.2.0"
     espree: "npm:^10.3.0"
   peerDependencies:
     eslint: ">=8.40.0"
-  checksum: 10c0/37255ad4733ddac16be63a17c0ce8a51bf968a31c198045fb33aaf587b4066f8cddb28f4ff3ba872806e5f573095f4bb1c9b1e057285466f40dd0c19a4fbedb8
+  checksum: 10c0/f1928f7743688b3bad12e59406077b5f0bdbe9f9c1ce44fdd57ec42f6ca90c78a118af0e6cc3b3bdc6af3f6392d7f76b620b2804d5962acb158bcd66fc8ae104
   languageName: node
   linkType: hard
 
