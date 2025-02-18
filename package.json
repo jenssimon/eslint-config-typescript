@@ -25,7 +25,7 @@
     "semantic-release": "semantic-release"
   },
   "dependencies": {
-    "@stylistic/eslint-plugin-ts": "^4.0.0",
+    "@stylistic/eslint-plugin-ts": "^3.0.0",
     "@typescript-eslint/eslint-plugin": "^8.0.0",
     "@typescript-eslint/parser": "^8.0.0",
     "eslint-plugin-deprecation": "^3.0.0"
