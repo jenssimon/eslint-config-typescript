@@ -2,6 +2,9 @@
 
 # eslint-config-typescript
 
+> [!WARNING]
+> **DEPRECATION:** Please use [typescript-eslint](https://typescript-eslint.io/) directly.
+
 > ESLint configuration for usage with TypeScript
 
 ## Installation
