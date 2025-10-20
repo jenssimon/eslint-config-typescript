@@ -7,6 +7,7 @@ on:
 
 permissions:
   id-token: write
+  contents: write
 
 jobs:
   build:
@@ -29,9 +30,12 @@ jobs:
 
   release:
     needs: [build]
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
         - uses: actions/checkout@v5
+          with:
+            fetch-depth: 0
         - uses: actions/setup-node@v6
           with:
             node-version-file: .nvmrc
